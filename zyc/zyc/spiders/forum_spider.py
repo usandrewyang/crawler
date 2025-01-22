@@ -6,7 +6,11 @@ import re
 class ZycSpider(scrapy.Spider):
     name = "forum"
     start_urls = [
-        "http://www.zhiyoucheng.co/forum-99-1.html",
+        # "http://www.zhiyoucheng.co/forum-99-1.html", # 智游学堂
+        # "http://www.zhiyoucheng.co/forum-4-1.html", # 德州扑克 (3)
+        # "http://www.zhiyoucheng.co/forum-36-1.html", # 奥马哈
+        "http://www.zhiyoucheng.co/forum-37-1.html", # 混合牌局
+        "http://www.zhiyoucheng.co/forum-18-1.html", # 新手天地
     ]
     # if not valid url, return 0
     # else return 1, 2
